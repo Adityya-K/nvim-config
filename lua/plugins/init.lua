@@ -25,14 +25,10 @@ return {
     keys = {
       { "<localLeader>l", "", desc = "+vimtex", ft = "tex" },
     },
+  },
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^8', -- Recommended
+    lazy = false, -- This plugin is already lazy
   }
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
 }
